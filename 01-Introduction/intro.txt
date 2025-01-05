@@ -1,0 +1,5 @@
+what is data sturucture
+Data structure is a specific way of organizing, storing and accessing data.
+
+
+It hepls you become a great problem solver
