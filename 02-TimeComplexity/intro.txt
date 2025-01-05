@@ -1,0 +1,21 @@
+How can we tell if the code we just wrote is good code?
+
+BIG O NOTATION
+
+Big o notation helps us understand how long an algorithm will take to run or how much memory it will need as the amount of data it handles grows.
+
+O(n)- Liner Time Complexity 
+time taken by the algorithm growns as the input grows
+
+O(1)- Constant Time Complextity
+execution time of an algorithm ramains constant regardless of the input size.
+
+O(n^2)- Quadratic Time Complexity
+execution time for the algorithm grows quadratically with the size of the input data (n).
+
+O(log n)- Logorithmic Time Complexity
+execution time for the algorithm grows logorithimcally with the size of input data. In simple terms as the size of the input increases, the time it takes to run slowly increases.
+
+log  8 = 3 -> 2 t the what power is equal to 8? 
+   2
+
