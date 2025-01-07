@@ -18,6 +18,8 @@ const secondLargest = (arr) => {
       if (arr[i] > secondLargest) {
         secondLargest = arr[i];
       }
+      //another way
+      //   secondLargest = Math.max(secondLargest, arr[i]);
     }
   }
 
