@@ -1,9 +1,9 @@
 // 1. using two for loop
 const concatArr = (arr) => {
-  let concated = [];
+  let concatinate = [];
 
   for (let i = 0; i < arr.length; i++) {
-    concated.push(arr[i]);
+    concatinate.push(arr[i]);
   }
 
   for (let i = 0; i < arr.length; i++) {
