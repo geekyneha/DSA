@@ -1,10 +1,18 @@
 const prime = (n) => {
-  for (let i = 2; i < n; i++) {
+  count = 0;
+  for (let i = 1; i * n <= n; i++) {
     if (n % i == 0) {
-      return false;
+      count++;
+      if (Math.floor(n / i) !== i) {
+        count++;
+      }
     }
+  }
+  if (count == 2) {
     return true;
+  } else {
+    return false;
   }
 };
 
-console.log(prime(7));
+console.log(prime(2));
