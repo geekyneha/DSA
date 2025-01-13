@@ -1,6 +1,7 @@
 const divsors = (num) => {
   const arr = [];
-  for (let i = 0; i <= Math.sqrt(num); i++) {
+  // Math.sqrt
+  for (let i = 0; i * i <= num; i++) {
     if (num % i == 0) {
       arr.push(i);
       if (Math.floor(num / i) !== i) {
