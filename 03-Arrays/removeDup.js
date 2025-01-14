@@ -9,4 +9,4 @@ const removedup = (nums) => {
   }
   return index;
 };
-console.log(removedup([1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 7]));
+console.log(removedup([1, 1, 2, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7]));
