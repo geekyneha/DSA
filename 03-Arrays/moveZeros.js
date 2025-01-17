@@ -10,6 +10,6 @@ const moveZeroes = (nums) => {
       startIndex++;
     }
   }
-  return nums;
+  return nums.length;
 };
 console.log(moveZeroes([0, 1, 0, 2, 3, 4]));
