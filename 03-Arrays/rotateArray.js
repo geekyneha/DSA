@@ -26,4 +26,4 @@ const rotate = (nums, k) => {
   return nums;
 };
 
-console.log(rotate([1, 2, 3, 4, 5, 6], 3)); // Output: [4, 5, 6, 1, 2, 3]
+console.log(rotate([1, 2, 3, 4, 5, 6], 3));
