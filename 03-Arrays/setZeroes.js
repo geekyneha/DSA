@@ -1,3 +1,4 @@
+// Brute Force
 function setZeroes(matrix) {
   let rows = matrix.length;
   let col = matrix[0].length;
