@@ -29,7 +29,6 @@ function countingSort(arr) {
     arr[i] = sortedArr[i];
   }
 }
-
 const arr = [4, 2, 2, 8, 3, 3, 1];
 countingSort(arr);
 
