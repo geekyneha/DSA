@@ -1,7 +1,7 @@
 const rotate = (nums, k) => {
   let n = nums.length;
 
-  // Normalize k to ensure it's within the array bounds
+  // Normalize k to ensure it's within the array bounds.
   k = k % n;
 
   // Helper function to reverse part of the array
