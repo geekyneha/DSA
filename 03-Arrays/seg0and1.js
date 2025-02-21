@@ -1,6 +1,5 @@
 const segregate = (nums) => {
   let n = nums.length;
-
   let start = 0;
   let end = n - 1;
 
